@@ -1,0 +1,15 @@
+{
+  "name": "whoami",
+  "version": "1.0.0",
+  "description": "outputs a user's IP address, system language and OS",
+  "main": "whoami.js",
+  "scripts": {
+    "test": "node whoami.js"
+  },
+  "keywords": [
+    "ip",
+    "OS"
+  ],
+  "author": "Michael Howard (mikehow1005@gmail.com)",
+  "license": "ISC"
+}
