@@ -1,15 +1,28 @@
 {
   "name": "whoami",
   "version": "1.0.0",
-  "description": "outputs a user's IP address, system language and OS",
-  "main": "whoami.js",
+  "description": "Outputs ip address",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "locale": "^0.0.20"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "node whoami.js"
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikehow1984/whoami.git"
   },
   "keywords": [
     "ip",
-    "OS"
+    "json"
   ],
-  "author": "Michael Howard (mikehow1005@gmail.com)",
-  "license": "ISC"
+  "author": "Michael Howard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikehow1984/whoami/issues"
+  },
+  "homepage": "https://github.com/mikehow1984/whoami"
 }
